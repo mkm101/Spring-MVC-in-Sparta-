@@ -1,8 +1,10 @@
 package com.sparta.springmvc.response;
 
 import lombok.Getter;
+import lombok.Setter;
 
-@Getter
+@Setter
+//@Getter
 public class Star {
     String name;
     int age;
@@ -13,4 +15,5 @@ public class Star {
     }
 
     public Star() {}
+
 }
